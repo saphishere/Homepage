@@ -6,6 +6,9 @@
     <script>
         if (sessionStorage.getItem('allowed_access') !== 'true') {
             window.location.replace('./site/home.html');
+        function home() {
+        window.location.href="'./site/home.html'"
+        }
     </script>
 </head>
 <body>
@@ -13,6 +16,6 @@
     <h1>Welcome back to the main Index Page!</h1>
     <p>You got here from another page but I recommend going back unless you want something uber-specific.</p>
     
-    <button onclick="window.location.href='./site/home.html'">Go to Home Page</button>
+    <button onclick="home()">Go to Home Page</button>
 </body>
 </html>
