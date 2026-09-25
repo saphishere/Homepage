@@ -9,5 +9,6 @@ Err I don't know what I'm doing but HTML looks fun so
 
 **Links:**
 Discord to yell at me: 
+
 Server Invite:
 (https://discord.gg/JsZWke9cH2)
