@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Loading...</title>
     <script>
-        alert("The browser tab thinks your badge value is: " + sessionStorage.getItem('allowed_access'));
+
         if (sessionStorage.getItem('allowed_access') !== 'true') {
             window.location.replace('./site/home.html'); 
         }
