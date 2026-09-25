@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+<script>
+        function goToSecretIndex() {
+            // Yes im cheating, but im trying to understand with documentation so hop off
+            sessionStorage.setItem('allowed_access', 'true');
+            // Hey its those funny linux dot go back thingies
+            window.location.href = '../index.html';
+        }
+</script>
 <html>
 <head>
     <title>Saphs Website</title>
