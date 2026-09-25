@@ -3,11 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Loading...</title>
-    
     <script>
-        // check if you came from yer or nah
-        if (!document.referrer.includes('https://saphishere.github.io/homepage/site')) {
+        if (sessionStorage.getItem('allowed_access') !== 'true') {
             window.location.replace('./site/home.html');
+        } else {
+            sessionStorage.removeItem('allowed_access');
         }
     </script>
 </head>
