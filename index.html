@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading...</title>
+    
+    <script>
+        // check if you came from yer or nah
+        if (!document.referrer.includes('https://saphishere.github.io/homepage/')) {
+            window.location.replace('./home.html');
+        }
+    </script>
+</head>
+<body>
+    <!-- I mean IG -->
+    <h1>Welcome back to the main Index Page!</h1>
+    <p>You got here from another page but I recommend going back unless you want something uber-specific.</p>
+    
+    <button onclick="window.location.href='./home.html'">Go to Home Page</button>
+</body>
+</html>
