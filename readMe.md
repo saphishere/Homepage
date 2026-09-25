@@ -8,7 +8,6 @@ Err I don't know what I'm doing but HTML looks fun so
 4. Make a sub-page to mess around in
 
 **Links:**
-Discord to yell at me: 
-
-Server Invite:
-(https://discord.gg/JsZWke9cH2)
+  Discord to yell at me: 
+  Server Invite:
+  (https://discord.gg/JsZWke9cH2)
